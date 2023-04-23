@@ -18,9 +18,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hey! I’m Krithika, an incoming Ph.D. student in Computer Science at Johns Hopkins University.
 
-I currently work as a research intern at Microsoft Research India under the supervision of [Dr. Sunayana Sitaram](https://www.microsoft.com/en-us/research/people/susitara/) where I work on various aspects of fairness in language models. My work is largely motivated by issues regarding how the problems we face in NLP could amplify (and even introduce) societal concerns and unequal power dynamics.
+My research interests lie in studying the harms caused by language models, as well as the fairness, interpretability, privacy and efficiency aspects of these models. I'm largely motivated by issues regarding how the problems we face in NLP could amplify (and even introduce) societal concerns and unequal power dynamics.
 
-My research interests lie in studying the harms caused by language models, as well as the fairness, interpretability, privacy and efficiency aspects of these models. I have previously interned at the Indian School of Business, with [Dr. Sumeet Kumar](http://sumeetkumar.in/) and [Dr. Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhudabu/).
+I currently work as a research intern at Microsoft Research India under the supervision of [Dr. Sunayana Sitaram](https://www.microsoft.com/en-us/research/people/susitara/) where I work on various aspects of fairness in language models. I have previously interned at the Indian School of Business, with [Dr. Sumeet Kumar](http://sumeetkumar.in/) and [Dr. Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhudabu/).
 
 Some of my current research questions/topics revolve around:  
   * What sorts of biases exist in language models, and how do we study them from an intersectional view? How can we mitigate the disparate treatment we observe in models? 
