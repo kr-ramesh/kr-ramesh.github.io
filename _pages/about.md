@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey! I’m Krithika, an incoming Ph.D. student in Computer Science at Johns Hopkins [Center for Language and Speech Processing](https://www.clsp.jhu.edu/).
+Hey! I’m Krithika, an incoming Ph.D. student in Computer Science at Johns Hopkins University.
 
 I currently work as a research intern at Microsoft Research India under the supervision of [Dr. Sunayana Sitaram](https://www.microsoft.com/en-us/research/people/susitara/) where I work on various aspects of fairness in language models. My work is largely motivated by issues regarding how the problems we face in NLP could amplify (and even introduce) societal concerns and unequal power dynamics.
 
