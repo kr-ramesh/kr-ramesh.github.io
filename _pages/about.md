@@ -19,8 +19,19 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey! I’m Krithika, an incoming Ph.D. student in Computer Science at Johns Hopkins [Center for Language and Speech Processing](https://www.clsp.jhu.edu/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I currently work as a research intern at Microsoft Research India under the supervision of [Dr. Sunayana Sitaram](https://www.microsoft.com/en-us/research/people/susitara/) where I work on various aspects of fairness in language models. My work is largely motivated by issues regarding how the problems we face in NLP could amplify (and even introduce) societal concerns and unequal power dynamics.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests lie in studying the harms caused by language models, as well as the fairness, interpretability, privacy and efficiency aspects of these models. I have previously interned at the Indian School of Business, with [Dr. Sumeet Kumar](http://sumeetkumar.in/) and [Dr. Ashique KhudaBukhsh](https://www.cs.cmu.edu/~akhudabu/). In the past I’ve worked with  [Dr. Rahul Sharma](https://cs.stanford.edu/people/sharmar/) as a part of the [EzPC](https://www.microsoft.com/en-us/research/project/ezpc-easy-secure-multi-party-computation/) team from MSR India. 
+
+Some of my current research questions/topics revolve around:  
+  * What sorts of biases exist in language models, and how do we study them from an intersectional view? How can we mitigate the disparate treatment we observe in models? 
+  * Model interpretability and the risks of privacy in natural language processing 
+  * How fair are compressed models?  
+
+During my undergraduate degree, I co-founded the [Research Society MIT](https://www.researchsocietymit.com), an organization dedicated to guiding undergraduate students from a multitude of different fields in research, to foster and make the research culture more habitable for students. We’re always looking for potential collaborations and would be grateful for external assistance, so if you would like to assist the organization in any way, you can reach out to them at their [e-mail](mailto:research.society.mit@gmail.com). A list of publications and projects underway is available at their website for your reference. 
+
+If you're still reading this, you probably (maybe, hopefully) also want to know a little about me as a person. I run, I read (to some extent), I love video games (though I don't play them as much anymore), specifically RPGs like Divinity Original Sin: II, Mass Effect and Dragon Age. I've even actually recently begun to learn to play the keyboard so that I can play the music from these games! Some of the podcasts that I think are fantastic are [Unexplainable](https://www.vox.com/unexplainable) and [Flash Forward](https://www.flashforwardpod.com/) (does this page sound more like an advert at this point?).  
+
+I’m always open to discussion, so if you have any queries related to anything, or if there’s any way I could help you, feel free to drop me a [mail](mailto:kramesh.tlw@gmail.com) or contact me via [Twitter](https://twitter.com/stolenpyjak)!
