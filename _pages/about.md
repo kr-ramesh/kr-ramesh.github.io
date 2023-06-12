@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey! I’m Krithika, an incoming Ph.D. student in Computer Science at the Johns Hopkins [Centre for Language and Speech Processing][https://www.clsp.jhu.edu/].
+Hey! I’m Krithika, an incoming Ph.D. student in Computer Science at the Johns Hopkins [Centre for Language and Speech Processing](https://www.clsp.jhu.edu/).
 
 My research interests lie in studying the harms caused by language models, as well as the fairness, interpretability, privacy and efficiency aspects of these models. I'm largely motivated by issues regarding how the problems we face in NLP could amplify (and even introduce) societal concerns and unequal power dynamics.
 
