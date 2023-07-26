@@ -1,6 +1,46 @@
 ---
 ---
 
+@inproceedings{ramesh-etal-2023-comparative,
+    title = "A Comparative Study on the Impact of Model Compression Techniques on Fairness in Language Models",
+    author = "Ramesh, Krithika  and
+      Chavan*, Arnav  and
+      Pandit*, Shrey  and
+      Sitaram, Sunayana",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.878",
+    pages = "15762--15782",
+    abstract = "Compression techniques for deep learning have become increasingly popular, particularly in settings where latency and memory constraints are imposed. Several methods, such as pruning, distillation, and quantization, have been adopted for compressing models, each providing distinct advantages. However, existing literature demonstrates that compressing deep learning models could affect their fairness. Our analysis involves a comprehensive evaluation of pruned, distilled, and quantized language models, which we benchmark across a range of intrinsic and extrinsic metrics for measuring bias in text classification. We also investigate the impact of using multilingual models and evaluation measures. Our findings highlight the significance of considering both the pre-trained model and the chosen compression strategy in developing equitable language technologies. The results also indicate that compression strategies can have an adverse effect on fairness measures.",
+}
+
+@inproceedings{gupta2023end-to-end,
+author = {Gupta, Gauri and Ramesh, Krithika and Bhattacharya, Anwesh and Gupta, Divya and Sharma, Rahul and Chandran, Nishanth and Sen, Rijurekha},
+title = {End-to-end Privacy Preserving Training and Inference for Air Pollution Forecasting with Data from Rival Fleets},
+booktitle = {Privacy Enhancing technologies Symposium (PETS) 2023},
+year = {2023},
+month = {July},
+abstract = {Privacy-preserving machine learning (PPML) promises to train machine learning (ML) models by combining data spread across multiple data silos. Theoretically, secure multiparty computation (MPC) allows multiple data owners to train models on their joint data without revealing the data to each other. However, the prior implementations of this secure training using MPC have three limitations: they have only been evaluated on CNNs, and LSTMs have been ignored; fixed point approximations have affected training accuracies compared to training in floating point; and due to significant latency overheads of secure training via MPC, its relevance for practical tasks with streaming data remains unclear.
+
+The motivation of this work is to report our experience of addressing the practical problem of secure training and inference of models for urban sensing problems, e.g., traffic congestion estimation, or air pollution monitoring in large cities, where data can be contributed by rival fleet companies while balancing the privacy-accuracy trade-offs using MPC-based techniques.
+
+Our first contribution is to design a custom ML model for this task that can be efficiently trained with MPC within a desirable latency. In particular, we design a GCN-LSTM and securely train it on time-series sensor data for accurate forecasting, within 7 minutes per epoch. As our second contribution, we build an end-to-end system of private training and inference that provably matches the training accuracy of cleartext ML training. This work is the first to securely train a model with LSTM cells. Third, this trained model is kept secret-shared between the fleet companies and allows clients to make sensitive queries to this model while carefully handling potentially invalid queries. Our custom protocols allow clients to query predictions from privately trained models in milliseconds, all the while maintaining accuracy and cryptographic security.},
+url = {https://www.microsoft.com/en-us/research/publication/end-to-end-privacy-preserving-training-and-inference-for-air-pollution-forecasting-with-data-from-rival-fleets/},
+}
+
+@misc{ahuja2023mega,
+      title={MEGA: Multilingual Evaluation of Generative AI}, 
+      author={Kabir Ahuja and Harshita Diddee and Rishav Hada and Millicent Ochieng and Krithika Ramesh and Prachi Jain and Akshay Nambi and Tanuja Ganu and Sameer Segal and Maxamed Axmed and Kalika Bali and Sunayana Sitaram},
+      year={2023},
+      eprint={2303.12528},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2303.12528}
+}
+
 @article{Ramesh2023FairnessIL,
   title={Fairness in Language Models Beyond English: Gaps and Challenges},
   author={Krithika Ramesh and Sunayana Sitaram and Monojit Choudhury},

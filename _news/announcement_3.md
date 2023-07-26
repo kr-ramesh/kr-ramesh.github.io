@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [A Comparative Study of Model Compression Techniques on Fairness in Language Models]() was accepted to ACL 2023!
+Our paper [A Comparative Study of Model Compression Techniques on Fairness in Language Models](https://aclanthology.org/2023.acl-long.878/) was accepted to ACL 2023!
