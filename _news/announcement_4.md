@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Evaluating Differentially Private Synthetic Data Generation in High-Stakes Domains]() was accepted to the Findings of EMNLP 2024!
+Our paper [Evaluating Differentially Private Synthetic Data Generation in High-Stakes Domains](https://arxiv.org/abs/2410.08327) was accepted to the Findings of EMNLP 2024!
