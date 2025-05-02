@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'll be starting my Ph.D. at Johns Hopkins [CLSP](https://www.clsp.jhu.edu/) this fall!
+I'll be starting my Ph.D. at Johns Hopkins [CLSP](https://www.clsp.jhu.edu/) this fall.
