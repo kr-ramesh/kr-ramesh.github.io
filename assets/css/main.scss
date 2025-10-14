@@ -13,3 +13,8 @@ $max-content-width: {{ site.max_width }};
   "base",
   "distill"
 ;
+
+// FontAwesome
+@import "font-awesome/fontawesome";
+@import "font-awesome/solid";
+@import "font-awesome/brands";

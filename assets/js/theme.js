@@ -16,9 +16,11 @@ let setTheme = (theme) =>  {
 
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
+    document.documentElement.setAttribute("data-theme-setting", theme);
   }
   else {
     document.documentElement.removeAttribute("data-theme");
+    document.documentElement.removeAttribute("data-theme-setting");
   }
   localStorage.setItem("theme", theme);
 
@@ -70,10 +72,8 @@ let transTheme = () => {
 
 let initTheme = (theme) => {
   if (theme == null || theme == 'null') {
-    const userPref = window.matchMedia;
-    if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
-        theme = 'dark';
-    }
+    // Default to dark mode
+    theme = 'dark';
   }
 
   setTheme(theme);
@@ -81,3 +81,13 @@ let initTheme = (theme) => {
 
 
 initTheme(localStorage.getItem("theme"));
+
+// Add click event listener for the toggle button
+document.addEventListener('DOMContentLoaded', function() {
+    const mode_toggle = document.getElementById("light-toggle");
+    if (mode_toggle) {
+        mode_toggle.addEventListener("click", function() {
+            toggleTheme(localStorage.getItem("theme"));
+        });
+    }
+});

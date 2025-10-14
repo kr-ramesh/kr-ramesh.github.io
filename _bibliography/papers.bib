@@ -1,20 +1,20 @@
 ---
 ---
-
-@inproceedings{synthtexteval,
+@article{synthtexteval,
       title={SynthTextEval: Synthetic Text Data Generation and Evaluation for High-Stakes Domains}, 
       author={Krithika Ramesh and Daniel Smolyak and Zihao Zhao and Nupoor Gandhi and Ritu Agarwal and Margrét Bjarnadóttir and Anjalie Field},
+      journal = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations},
       year={2025},
-      month={March},
+      month={November},
       abstract = {We present SynthTextEval, a toolkit for conducting comprehensive evaluations of synthetic text. The fluency of large language model (LLM) outputs has made synthetic text potentially viable for numerous applications, such as reducing the risks of privacy violations in the development and deployment of AI systems in high-stakes domains. Realizing this potential, however, requires principled consistent evaluations of synthetic data across multiple dimensions: its utility in downstream systems, the fairness of these systems, the risk of privacy leakage, and general distributional differences from the source text. SynthTextEval allows users to conduct evaluations along all of these dimensions over synthetic data that they upload or generate using the toolkit's generation module. While our toolkit can be run over any data, we highlight its functionality and effectiveness over datasets from two high-stakes domains: healthcare and law. By consolidating and standardizing evaluation metrics, we aim to improve the viability of synthetic text, and in-turn, privacy-preservation in AI development.},
       url={https://github.com/kr-ramesh/synthtexteval},
       selected = {true}
 }
 
-@inproceedings{ramesh2024evaluatingdifferentiallyprivatesynthetic,
+@article{ramesh2024evaluatingdifferentiallyprivatesynthetic,
       title={Evaluating Differentially Private Synthetic Data Generation in High-Stakes Domains}, 
       author={Krithika Ramesh and Nupoor Gandhi and Pulkit Madaan and Lisa Bauer and Charith Peris and Anjalie Field},
-      booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (Findings)},
+      journal = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (Findings)},
       year={2024},
       month={November},
       abstract = {The difficulty of anonymizing text data hinders the development and deployment of NLP in high-stakes domains that involve private data, such as healthcare and social services. Poorly anonymized sensitive data cannot be easily shared with annotators or external researchers, nor can it be used to train public models. In this work, we explore the feasibility of using synthetic data generated from differentially private language models in place of real data to facilitate the development of NLP in these domains without compromising privacy. In contrast to prior work, we generate synthetic data for real high-stakes domains, and we propose and conduct use-inspired evaluations to assess data quality. Our results show that prior simplistic evaluations have failed to highlight utility, privacy, and fairness issues in the synthetic data. Overall, our work underscores the need for further improvements to synthetic data generation for it to be a viable way to enable privacy-preserving data sharing.},
@@ -22,23 +22,23 @@
       selected = {true}
 }
 
-@inproceedings{ahuja2023mega,
+@article{ahuja2023mega,
       title={MEGA: Multilingual Evaluation of Generative AI}, 
       author={Kabir Ahuja and Harshita Diddee and Rishav Hada and Millicent Ochieng and Krithika Ramesh and Prachi Jain and Akshay Nambi and Tanuja Ganu and Sameer Segal and Maxamed Axmed and Kalika Bali and Sunayana Sitaram},
-      booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+      journal = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
       year={2023},
       month={December},
       abstract = {Generative AI models have shown impressive performance on many Natural Language Processing tasks such as language understanding, reasoning, and language generation. An important question being asked by the AI community today is about the capabilities and limits of these models, and it is clear that evaluating generative AI is very challenging. Most studies on generative LLMs have been restricted to English and it is unclear how capable these models are at understanding and generating text in other languages. We present the first comprehensive benchmarking of generative LLMs - MEGA, which evaluates models on standard NLP benchmarks, covering 16 NLP datasets across 70 typologically diverse languages. We compare the performance of generative LLMs including Chat-GPT and GPT-4 to State of the Art (SOTA) non-autoregressive models on these tasks to determine how well generative models perform compared to the previous generation of LLMs. We present a thorough analysis of the performance of models across languages and tasks and discuss challenges in improving the performance of generative LLMs on low-resource languages. We create a framework for evaluating generative LLMs in the multilingual setting and provide directions for future progress in the field.},
       url={https://aclanthology.org/2023.emnlp-main.258}
 }
 
-@inproceedings{ramesh-etal-2023-comparative,
+@article{ramesh-etal-2023-comparative,
     title = "A Comparative Study on the Impact of Model Compression Techniques on Fairness in Language Models",
     author = "Ramesh, Krithika  and
       Chavan*, Arnav  and
       Pandit*, Shrey  and
       Sitaram, Sunayana",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    journal = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     month = jul,
     year = "2023",
     address = "Toronto, Canada",
@@ -48,10 +48,10 @@
     abstract = "Compression techniques for deep learning have become increasingly popular, particularly in settings where latency and memory constraints are imposed. Several methods, such as pruning, distillation, and quantization, have been adopted for compressing models, each providing distinct advantages. However, existing literature demonstrates that compressing deep learning models could affect their fairness. Our analysis involves a comprehensive evaluation of pruned, distilled, and quantized language models, which we benchmark across a range of intrinsic and extrinsic metrics for measuring bias in text classification. We also investigate the impact of using multilingual models and evaluation measures. Our findings highlight the significance of considering both the pre-trained model and the chosen compression strategy in developing equitable language technologies. The results also indicate that compression strategies can have an adverse effect on fairness measures.",
 }
 
-@inproceedings{gupta2023end-to-end,
+@article{gupta2023end-to-end,
 author = {Gupta, Gauri and Ramesh, Krithika and Bhattacharya, Anwesh and Gupta, Divya and Sharma, Rahul and Chandran, Nishanth and Sen, Rijurekha},
 title = {End-to-end Privacy Preserving Training and Inference for Air Pollution Forecasting with Data from Rival Fleets},
-booktitle = {Privacy Enhancing technologies Symposium (PETS) 2023},
+journal = {Privacy Enhancing Technologies Symposium (PETS) 2023},
 year = {2023},
 month = {July},
 abstract = {Privacy-preserving machine learning (PPML) promises to train machine learning (ML) models by combining data spread across multiple data silos. Theoretically, secure multiparty computation (MPC) allows multiple data owners to train models on their joint data without revealing the data to each other. However, the prior implementations of this secure training using MPC have three limitations: they have only been evaluated on CNNs, and LSTMs have been ignored; fixed point approximations have affected training accuracies compared to training in floating point; and due to significant latency overheads of secure training via MPC, its relevance for practical tasks with streaming data remains unclear.
@@ -73,12 +73,12 @@ url = {https://www.microsoft.com/en-us/research/publication/end-to-end-privacy-p
   selected = {true}
 }
 
-@inproceedings{ramesh-etal-2022-revisiting,
+@article{ramesh-etal-2022-revisiting,
     title = "Revisiting Queer Minorities in Lexicons",
     author = "Ramesh, Krithika  and
       Kumar, Sumeet  and
       Khudabukhsh, Ashiqur",
-    booktitle = "Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH)",
+    journal = "Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH)",
     month = jul,
     year = "2022",
     address = "Seattle, Washington (Hybrid)",
@@ -108,12 +108,12 @@ selected = {true}
   url={https://arxiv.org/abs/2107.06946}
 }
 
-@inproceedings{ramesh-etal-2021-evaluating,
+@article{ramesh-etal-2021-evaluating,
     title = "Evaluating Gender Bias in {H}indi-{E}nglish Machine Translation",
     author = "Gupta*, Gauri and
     Ramesh*, Krithika  and
     Singh, Sanjay",
-    booktitle = "Proceedings of the 3rd Workshop on Gender Bias in Natural Language Processing",
+    journal = "Proceedings of the 3rd Workshop on Gender Bias in Natural Language Processing",
     month = aug,
     year = "2021",
     publisher = "Association for Computational Linguistics",

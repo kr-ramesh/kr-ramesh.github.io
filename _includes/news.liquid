@@ -1,0 +1,36 @@
+<div class="news">
+  {% if site.news != blank %}
+    {% assign news_size = site.news | size %}
+    <div
+      class="table-responsive"
+      {% if include.limit and site.news.scrollable and news_size > 3 %}
+        style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 4px; color: var(--global-text-color);"
+      {% elsif include.limit and news_size > 3 %}
+        style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 4px; color: var(--global-text-color);"
+      {% endif %}
+    >
+      <table class="table table-sm table-borderless" style="color: var(--global-text-color);">
+        {% assign news = site.news | reverse %}
+        {% if include.limit and site.news.limit %}
+          {% assign news_limit = site.news.limit %}
+        {% else %}
+          {% assign news_limit = news_size %}
+        {% endif %}
+        {% for item in news limit: news_limit %}
+          <tr>
+            <th scope="row" style="width: 20%; color: var(--global-text-color);">{{ item.date | date: '%b %d, %Y' }}</th>
+            <td style="color: var(--global-text-color);">
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a class="news-title" href="{{ item.url | relative_url }}" style="color: var(--global-theme-color);">{{ item.title }}</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>
