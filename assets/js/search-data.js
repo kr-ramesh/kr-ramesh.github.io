@@ -66,6 +66,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-ll-be-interning-with-the-amazon-agi-foundations-team-this-fall",
           title: 'I’ll be interning with the Amazon AGI Foundations team this fall.',
           description: "",
+          section: "News",},{id: "news-i-ll-be-interning-with-the-amazon-agi-foundations-team-this-fall",
+          title: 'I’ll be interning with the Amazon AGI Foundations team this fall.',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
